@@ -1,7 +1,7 @@
 {
-  "name": "meridian-health",
+  "name": "doctor-on-call",
   "version": "1.0.0",
-  "description": "Meridian Health — doctor appointment booking platform ready for Vercel deployment with database support.",
+  "description": "Doctor On Call — doctor appointment booking platform ready for Vercel deployment with database support.",
   "type": "module",
   "main": "server.js",
   "engines": {

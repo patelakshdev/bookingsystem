@@ -1,5 +1,5 @@
 // server.js
-// Meridian Health — appointment booking platform.
+// Doctor On Call — appointment booking platform.
 // Pure Node.js + Multi-Database (PostgreSQL / Turso / Local SQLite).
 // Frontend: static HTML5 + Tailwind CSS served from /public.
 
@@ -436,7 +436,7 @@ if (!process.env.VERCEL && !process.env.NOW_REGION) {
 
   server.listen(PORT, async () => {
     await getDb();
-    console.log(`Meridian Health server running → http://localhost:${PORT}`);
+    console.log(`Doctor On Call server running → http://localhost:${PORT}`);
     console.log(`Staff/reception login → reception@meridianhealth.example / reception123`);
     console.log(`Demo patient login    → patient@meridianhealth.example / patient123`);
   });

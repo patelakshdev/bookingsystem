@@ -17,14 +17,14 @@ function renderHeader(active) {
     <!-- Top Mobile & Desktop Navigation Header -->
     <header class="bg-ink text-white sticky top-0 z-40 border-b border-white/10 backdrop-blur-md bg-ink/95">
       <div class="mx-auto max-w-7xl px-4 sm:px-8 h-16 flex items-center justify-between">
-        <a href="/index.html" class="flex items-center gap-2.5 shrink-0" aria-label="Meridian Health home">
+        <a href="/index.html" class="flex items-center gap-2.5 shrink-0" aria-label="Doctor On Call home">
           <div class="w-9 h-9 rounded-xl bg-teal/20 border border-teal/40 flex items-center justify-center shadow-inner">
             <svg width="22" height="22" viewBox="0 0 26 26" fill="none" aria-hidden="true">
               <path d="M13 2 L13 24 M2 13 L24 13" stroke="#D97706" stroke-width="2.5" stroke-linecap="round"/>
               <circle cx="13" cy="13" r="10" stroke="#F4F7F6" stroke-width="1.5" opacity="0.4"/>
             </svg>
           </div>
-          <span class="font-display text-lg tracking-tight font-semibold">Meridian <span class="text-brass font-normal">Health</span></span>
+          <span class="font-display text-lg tracking-tight font-semibold">Doctor <span class="text-brass font-normal">On Call</span></span>
         </a>
 
         <!-- Desktop Navigation Links -->
@@ -111,7 +111,7 @@ function renderFooter() {
     <footer class="bg-ink text-white/70 border-t border-white/10 mt-16">
       <div class="mx-auto max-w-7xl px-5 sm:px-8 py-10 grid gap-8 sm:grid-cols-3">
         <div>
-          <div class="font-display text-lg text-white mb-2">Meridian <span class="text-brass font-normal">Health</span></div>
+          <div class="font-display text-lg text-white mb-2">Doctor <span class="text-brass font-normal">On Call</span></div>
           <p class="text-xs text-white/60 leading-relaxed max-w-xs">Premium doctor appointments with real-time doctor availability and instant booking.</p>
         </div>
         <div>
@@ -129,7 +129,7 @@ function renderFooter() {
           </ul>
         </div>
       </div>
-      <div class="border-t border-white/10 py-4 text-center text-xs text-white/40">© ${new Date().getFullYear()} Meridian Health Platform.</div>
+      <div class="border-t border-white/10 py-4 text-center text-xs text-white/40">© ${new Date().getFullYear()} Doctor On Call Platform.</div>
     </footer>
   `;
 }

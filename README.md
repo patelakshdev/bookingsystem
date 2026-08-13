@@ -1,6 +1,6 @@
-# Meridian Health — Appointment Booking Platform
+# Doctor On Call — Appointment Booking Platform
 
-Meridian Health is a doctor appointment booking platform ready for **Git push** and **Vercel serverless deployment** with database support (**PostgreSQL**, **Turso**, or **local SQLite**).
+Doctor On Call is a doctor appointment booking platform ready for **Git push** and **Vercel serverless deployment** with database support (**PostgreSQL**, **Turso**, or **local SQLite**).
 
 ## Features
 
